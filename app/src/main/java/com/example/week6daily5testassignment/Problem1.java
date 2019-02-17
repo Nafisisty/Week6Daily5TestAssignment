@@ -21,10 +21,12 @@ public class Problem1 {
     }
 
     public static void sort(int inputArr[]) {
+
         array = inputArr;
         length = inputArr.length;
         tempMergArr = new int[length];
         mergeSort(0, length - 1);
+
     }
 
     private static void mergeSort(int lowerIndex, int higherIndex) {
